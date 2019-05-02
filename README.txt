@@ -10,9 +10,10 @@ WOFF2 W3C Recommendation
 OFL fonts
   - https://fontlibrary.org/en/search?license=OFL%20(SIL%20Open%20Font%20License)
 
-Variable Fonts:
-  - https://css-tricks.com/one-file-many-options-using-variable-fonts-web
 
+Variable Fonts (VF):
+  - https://css-tricks.com/one-file-many-options-using-variable-fonts-web
+  - https://v-fonts.com/
 
 DejaVu
 ======
@@ -23,7 +24,7 @@ font
   DejaVu v2.37
 
 CSS
-  dejavu/dejavu.css
+  <dejavu/dejavu.css>
 
   - DejaVu Sans
   - DejaVu Sans Bold
@@ -52,7 +53,7 @@ origin
   https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2
 
 license
-  dejavu/LICENSE.html
+  <dejavu/LICENSE.html>
 
 build
   WOFF2 format was generated from the ttf files using ``pyftsubset`` command
@@ -74,3 +75,28 @@ build
       done
     WARNING: FFTM NOT subset; don't know how to subset; dropped
     # ignore warnings about the FontForge time stamp table (FFTM)
+
+
+Cantarell
+=========
+
+WOFF2 format of Cantarell Variable Font TTF (origin)
+
+font
+  Cantarell-VT (Variable Font) v0.111 (commit 8cf8f934)
+
+CSS
+  cantarell/cantarell.css
+
+  - Cantarell
+
+origin
+  https://gitlab.gnome.org/GNOME/cantarell-fonts
+
+license
+  <cantarell/COPYING>
+
+build
+  WOFF2 format was generated from the ttf file using ``pyftsubset``::
+
+   $ pyftsubset Cantarell-VF.ttf --output-file="Cantarell-VF.woff2"
