@@ -16,7 +16,6 @@ Variable Fonts (VF):
   - `v-fonts.com <https://v-fonts.com>`_
 
 fonttools:
-
   Tool for manipulating TrueType and OpenType fonts (`fonttools
   <https://github.com/fonttools/fonttools>`_).  Install method using python3 &
   install fonttools and brotli compression::
@@ -89,7 +88,6 @@ CSS
   - DejaVu Math TeX Gyre
 
 origin
-
   `dejavu-fonts-ttf-2.37.tar.bz2 <https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2>`_
 
 license
