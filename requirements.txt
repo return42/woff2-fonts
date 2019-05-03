@@ -1,0 +1,34 @@
+# --------
+# requires
+# --------
+
+# --------------
+# tests_requires
+# --------------
+
+pip
+tox
+pytest
+pytest-cov
+pylint
+
+# -------
+# develop
+# -------
+
+Sphinx
+sphinx_rtd_theme
+sphinx-autobuild
+pip
+#twine
+#wheel
+#mock
+
+# sphinxjp.themes.revealjs: slide-shows with revaljs
+#
+#   comment out next lines, if you don't build slide-shows
+#
+git+https://github.com/return42/sphinxjp.themes.revealjs
+# -e file:../sphinxjp.themes.revealjs#egg=sphinxjp.themes.revealjs
+
+
