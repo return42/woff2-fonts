@@ -24,7 +24,7 @@ font
   DejaVu v2.37
 
 CSS
-  <dejavu/dejavu.css>
+  ./dejavu/dejavu.css
 
   - DejaVu Sans
   - DejaVu Sans Bold
@@ -53,7 +53,7 @@ origin
   https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2
 
 license
-  <dejavu/LICENSE.html>
+  ./dejavu/LICENSE.html
 
 build
   WOFF2 format was generated from the ttf files using ``pyftsubset`` command
@@ -86,7 +86,7 @@ font
   Cantarell-VT (Variable Font) v0.111 (commit 8cf8f934)
 
 CSS
-  cantarell/cantarell.css
+  ./cantarell/cantarell.css
 
   - Cantarell
 
@@ -94,7 +94,7 @@ origin
   https://gitlab.gnome.org/GNOME/cantarell-fonts
 
 license
-  <cantarell/COPYING>
+  ./cantarell/COPYING
 
 build
   WOFF2 format was generated from the ttf file using ``pyftsubset``::
