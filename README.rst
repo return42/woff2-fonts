@@ -4,17 +4,25 @@
 WOFF2 fonts
 ===========
 
-.. contents::
+.. contents:: Table of Contents
+
+----
+info
+----
+
+.. _SIL-OFL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=OFL
+.. _`OFL at fontlibrary.org`: https://fontlibrary.org/en/search?license=OFL%20(SIL%20Open%20Font%20License)>`
+.. _`Variable Fonts (css-tricks.com)`: https://css-tricks.com/one-file-many-options-using-variable-fonts-web
 
 WOFF2:
   - `W3C Recommendation <https://www.w3.org/TR/WOFF2>`_
 
 OFL fonts:
-  - `SIL OFL <https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=OFL>`_
-  - `OFL at fontlibrary.org <https://fontlibrary.org/en/search?license=OFL%20(SIL%20Open%20Font%20License)>`_
+  - SIL-OFL_
+  - `OFL at fontlibrary.org`_
 
 Variable Fonts (VF):
-  - `Variable Fonts (css-tricks.com) <https://css-tricks.com/one-file-many-options-using-variable-fonts-web>`_
+  - `Variable Fonts (css-tricks.com)`_
   - `v-fonts.com <https://v-fonts.com>`_
 
 fonttools:
@@ -35,6 +43,8 @@ WOFF2 fonts
 Cantarell
 =========
 
+.. _`GNOME cantarell-fonts`: https://gitlab.gnome.org/GNOME/cantarell-fonts
+
 WOFF2 format of Cantarell Variable Font TTF (origin)
 
 font
@@ -46,7 +56,7 @@ CSS
   - Cantarell
 
 origin
-  https://gitlab.gnome.org/GNOME/cantarell-fonts
+  `GNOME cantarell-fonts`_
 
 license
   `COPYING <cantarell/COPYING>`_
@@ -60,6 +70,8 @@ build
 
 DejaVu
 ======
+
+.. _dejavu-fonts-ttf-2.37.tar.bz2: https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2
 
 WOFF2 format of DejaVu TTF (origin)
 
@@ -93,7 +105,7 @@ CSS
   - DejaVu Math TeX Gyre
 
 origin
-  `dejavu-fonts-ttf-2.37.tar.bz2 <https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2>`_
+  `dejavu-fonts-ttf-2.37.tar.bz2`_
 
 license
   `LICENSE.html <./dejavu/LICENSE.html>`_
