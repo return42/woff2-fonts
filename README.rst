@@ -4,29 +4,29 @@
 WOFF2 fonts
 ===========
 
-WOFF2 W3C Recommendation
-  - https://www.w3.org/TR/WOFF2/
+WOFF2:
+  - `W3C Recommendation <https://www.w3.org/TR/WOFF2>`_
 
 OFL fonts:
-  - `SIL OFL<https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=OFL>`_
-  - https://fontlibrary.org/en/search?license=OFL%20(SIL%20Open%20Font%20License)
+  - `SIL OFL <https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=OFL>`_
+  - `OFL at fontlibrary.org <https://fontlibrary.org/en/search?license=OFL%20(SIL%20Open%20Font%20License)>`_
 
 Variable Fonts (VF):
-  - https://css-tricks.com/one-file-many-options-using-variable-fonts-web
-  - https://v-fonts.com/
+  -`Variable Fonts (css-tricks.com) <https://css-tricks.com/one-file-many-options-using-variable-fonts-web>`_
+  - `v-fonts.com <https://v-fonts.com>`_
 
 fonttools:
-  Tool for manipulating TrueType and OpenType fonts
 
-  - `fonttools <https://github.com/fonttools/fonttools>`_
-
-  Install method using python3 & install fonttools and brotli compression::
+  Tool for manipulating TrueType and OpenType fonts (`fonttools
+  <https://github.com/fonttools/fonttools>`_).  Install method using python3 &
+  install fonttools and brotli compression::
 
     $ sudo apt-get install python3-dev
     $ pip3 install --user fonttools
     $ git clone https://github.com/google/brotli
     cd brotli
     $ python3 setup.py install --user
+
 
 Cantarell
 =========
@@ -37,7 +37,7 @@ font
   Cantarell-VT (Variable Font) v0.111 (commit 8cf8f934)
 
 CSS
-  `./cantarell/cantarell.css`_
+  `cantarell.css <cantarell/cantarell.css>`_
 
   - Cantarell
 
@@ -45,7 +45,7 @@ origin
   https://gitlab.gnome.org/GNOME/cantarell-fonts
 
 license
-  ./cantarell/COPYING
+  `COPYING <cantarell/COPYING>`_
 
 build
   WOFF2 format was generated from the ttf files using ``pyftsubset`` command
@@ -63,7 +63,7 @@ font
   DejaVu v2.37
 
 CSS
-  `./dejavu/dejavu.css`_
+  `dejavu.css <dejavu/dejavu.css>`_
 
   - DejaVu Sans
   - DejaVu Sans Bold
@@ -89,10 +89,11 @@ CSS
   - DejaVu Math TeX Gyre
 
 origin
-  https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2
+
+  `dejavu-fonts-ttf-2.37.tar.bz2 <https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_2_37/dejavu-fonts-ttf-2.37.tar.bz2>`_
 
 license
-  `./dejavu/LICENSE.html`_
+  `LICENSE.html <./dejavu/LICENSE.html>`_
 
 build
   WOFF2 format was generated from the ttf files using ``pyftsubset`` command
