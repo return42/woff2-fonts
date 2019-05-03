@@ -4,6 +4,8 @@
 WOFF2 fonts
 ===========
 
+.. contents::
+
 WOFF2:
   - `W3C Recommendation <https://www.w3.org/TR/WOFF2>`_
 
@@ -12,7 +14,7 @@ OFL fonts:
   - `OFL at fontlibrary.org <https://fontlibrary.org/en/search?license=OFL%20(SIL%20Open%20Font%20License)>`_
 
 Variable Fonts (VF):
-  -`Variable Fonts (css-tricks.com) <https://css-tricks.com/one-file-many-options-using-variable-fonts-web>`_
+  - `Variable Fonts (css-tricks.com) <https://css-tricks.com/one-file-many-options-using-variable-fonts-web>`_
   - `v-fonts.com <https://v-fonts.com>`_
 
 fonttools:
@@ -26,6 +28,9 @@ fonttools:
     cd brotli
     $ python3 setup.py install --user
 
+-----------
+WOFF2 fonts
+-----------
 
 Cantarell
 =========
