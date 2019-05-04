@@ -51,7 +51,7 @@ slides:  sphinx-doc
 	$(call cmd,sphinx,html,$(SLIDES),$(SLIDES),slides)
 
 $(API_DOC): $(PY_ENV)
-	$(PY_ENV_BIN)/sphinx-apidoc --separate --maxdepth=0 -o docs/linuxdoc-api linuxdoc
+	$(PY_ENV_BIN)/sphinx-apidoc --separate --maxdepth=0 -o docs/pyfonts-api pyfonts
 	rm -f $(API_DOC)/modules.rst
 
 PHONY += clean

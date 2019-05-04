@@ -4,6 +4,12 @@
 pyfonts
 =======
 
+.. automodule:: pyfonts
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 ----
 info
 ----
@@ -33,6 +39,30 @@ fonttools:
     $ git clone https://github.com/google/brotli
     cd brotli
     $ python3 setup.py install --user
+
+
+-------
+Install
+-------
+
+.. code-block:: sh
+
+   pip install [--user] fspath
+
+For a bleeding edge installation:
+
+.. code-block:: sh
+
+  pip install --user git+http://github.com/return42/fspath.git
+
+If you are a developer fork/clone from github and run make:
+
+.. code-block:: sh
+
+  git clone https://github.com/return42/fspath
+  cd fspath
+  make install
+
 
 -----------
 WOFF2 fonts
@@ -122,3 +152,13 @@ build
     WARNING: FFTM NOT subset; don't know how to subset; dropped
     # ignore warnings about the FontForge time stamp table (FFTM)
 
+
+
+-------------------------
+Source Code Documentation
+-------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   pyfonts-api/pyfonts
