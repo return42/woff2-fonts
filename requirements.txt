@@ -1,21 +1,25 @@
-# --------
-# requires
-# --------
+# -*- coding: utf-8; mode: conf -*-
+# ----------------
+# install requires
+# ----------------
 
-# --------------
-# tests_requires
-# --------------
+fspath
+tinycss
 
-pip
-tox
-pytest
-pytest-cov
+# -------------
+# tests_require
+# -------------
+
 pylint
+#tox
+#pytest
+#pytest-cov
 
-# -------
-# develop
-# -------
+# ----------------
+# develop requires
+# ----------------
 
+jedi
 Sphinx
 sphinx_rtd_theme
 sphinx-autobuild

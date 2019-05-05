@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8; mode: python -*-
 """
-pyfonts setup.py
+pyfonts fontlib.py
 """
 import os
 from os.path import join as ospj
@@ -10,7 +10,7 @@ import imp
 from setuptools import setup, find_packages
 
 ROOT   = os.path.abspath(os.path.dirname(__file__))
-SRC    = ospj(ROOT, 'pyfonts')
+SRC    = ospj(ROOT, 'fontlib')
 README = ospj(ROOT, 'README.rst')
 DOCS   = ospj(ROOT, 'docs')
 TESTS  = ospj(ROOT, 'tests')
@@ -36,5 +36,5 @@ setup(
     , install_requires = PKG.install_requires
     , entry_points     = PKG.get_entry_points()
     , classifiers      = PKG.classifiers
-    , package_data     = {'pyfonts' : ['cantarell/x','dejavu/*']}
+    , package_data     = PKG.package_data
     )

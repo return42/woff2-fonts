@@ -1,24 +1,44 @@
 # -*- coding: utf-8; mode: python -*-
-"""pyfonts"""
 
+import mimetypes
+import pkg_resources
+import fspath
 from . import __pkginfo__
 
-__doc___ = """
-pyfonts long describtion here ... TODO
-
-:docs:       %s
-:repository: %s
-:copyright:  %s
-:e-mail:     %s
-:license:    %s
-
-""" % (__pkginfo__.docs, __pkginfo__.repository, __pkginfo__.copyright
-       , __pkginfo__.emails[0], __pkginfo__.license )
+pkg_resources.declare_namespace(__name__)
 
 __version__   = __pkginfo__.version
 __author__    = __pkginfo__.authors[0]
 __license__   = __pkginfo__.license
 __copyright__ = __pkginfo__.copyright
+__doc__       = __pkginfo__.docstring
+
+PKG_FOLDER = fspath.FSPath(__file__).DIRNAME
+FONT_FILES = dict()
+
+def _init():
+
+    # register mimetypes
+    mtypes = mimetypes.read_mime_types(PKG_FOLDER / 'mime.types')
+    for ext, mtype in mtypes.items():
+        mimetypes.add_type(mtype, ext)
+
+    # register font files
+    for ep  in ['fonts_ttf', 'fonts_otf']:
+        for entry_point in pkg_resources.iter_entry_points(ep):
+            FONT_FILES.update(entry_point.load())
+
+
+
+        
+for entry_point in pkg_resources.iter_entry_points('fonts_otf'):
+    font_files.update(entry_point.load())
+
+for font in font_files:
+    globals()[font] = font_files[font]
+
+
+
 
 
 # def on_build_finished(app, exc):
